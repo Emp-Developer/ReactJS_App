@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Text from './form';
+import Timer from './timer';
+import TodoApp from './todoapp';
+
 
 function App() {
   return (
@@ -18,7 +22,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Text name="World! This is my"/>
+      <Timer />
+      <TodoApp />
     </div>
+    
   );
 }
 
