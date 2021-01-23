@@ -3,6 +3,7 @@ import './App.css';
 import Text from './form';
 import Timer from './timer';
 import TodoApp from './todoapp';
+import MarkDownEditor from './remarkable';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Text name="World! This is my"/>
       <Timer />
       <TodoApp />
+      <MarkDownEditor />
     </div>
     
   );
